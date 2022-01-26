@@ -1,4 +1,4 @@
-p{
+/*p{
     color: brown;
 }
 
@@ -10,4 +10,13 @@ p{
 }
 p.color-blue.text-bold#title{
     color: chartreuse;
+}*/
+
+*{
+    color: pink;
+    box-sizing: border-box;
+}
+
+div *{
+    color: black;
 }
