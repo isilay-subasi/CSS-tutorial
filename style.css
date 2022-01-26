@@ -20,3 +20,7 @@ p.color-blue.text-bold#title{
 div *{
     color: black;
 }
+
+h3,p,div{
+    color: crimson;
+}
