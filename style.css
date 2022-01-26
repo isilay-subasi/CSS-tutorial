@@ -48,7 +48,7 @@ h3 + p span em{
     color: yellow;
 
 }
-*/
+
 
 h3~p{
     color: aqua;
@@ -56,4 +56,10 @@ h3~p{
 
 ul .list-iki ~ li{
     color: brown;
+}
+
+*/
+
+abbr[title]{
+    color: aquamarine;
 }
