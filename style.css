@@ -11,7 +11,7 @@
 p.color-blue.text-bold#title{
     color: chartreuse;
 }*/
-
+/*
 *{
     color: pink;
     box-sizing: border-box;
@@ -23,4 +23,13 @@ div *{
 
 h3,p,div{
     color: crimson;
+}
+*/
+
+div em{
+    color: blue;
+}
+
+.div-class .test{
+    color: brown;
 }
