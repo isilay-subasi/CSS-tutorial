@@ -33,8 +33,18 @@ div em{
 .div-class .test{
     color: brown;
 }
-*/
+
 
 p > em{
     color: brown;
+}
+*/
+
+h3 + p {
+    color: aqua;
+}
+
+h3 + p span em{
+    color: yellow;
+
 }
