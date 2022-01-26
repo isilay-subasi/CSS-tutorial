@@ -25,11 +25,16 @@ h3,p,div{
     color: crimson;
 }
 */
-
+/*
 div em{
     color: blue;
 }
 
 .div-class .test{
+    color: brown;
+}
+*/
+
+p > em{
     color: brown;
 }
