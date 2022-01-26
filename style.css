@@ -38,7 +38,7 @@ div em{
 p > em{
     color: brown;
 }
-*/
+
 
 h3 + p {
     color: aqua;
@@ -47,4 +47,13 @@ h3 + p {
 h3 + p span em{
     color: yellow;
 
+}
+*/
+
+h3~p{
+    color: aqua;
+}
+
+ul .list-iki ~ li{
+    color: brown;
 }
