@@ -88,3 +88,7 @@ div[class*="top" i]{
     content: 'Sonraki Yazı';
     color: blue;
 }
+
+.after::before{
+    content: 'Önceki Yazı';
+}
