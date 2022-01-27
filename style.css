@@ -71,3 +71,7 @@ a[target="alt"]{
 div[class|="box"]{
     background-color: aqua;
 }
+
+div[class^="box"]{
+    background-color: blueviolet;
+}
