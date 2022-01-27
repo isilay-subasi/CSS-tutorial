@@ -144,3 +144,7 @@ ul li:last-child{
 .child:first-of-type{
     background-color: tomato;
 }
+
+.child:last-of-type{
+    background-color: black;
+}
