@@ -1,4 +1,4 @@
-ul li:nth-last-child(3){
-    background-color: aqua;
-}
+div:nth-last-of-type(1){
 
+    background-color: blue;
+}
