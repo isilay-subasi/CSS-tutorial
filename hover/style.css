@@ -1,0 +1,34 @@
+ul li:hover{
+background-color: lime;
+
+}
+
+
+div span:hover{
+    background-color: chartreuse;
+}
+
+button:hover + ul{
+    display: none;
+}
+
+p::selection{
+    background-color: red;
+}
+
+p:hover::selection{
+    background-color: peru;
+}
+
+p:hover{
+    background-color: aqua;
+}
+
+
+.url::after{
+    content: '('attr(href) ')';
+}
+
+.url:hover::after{
+    display: none;
+}
