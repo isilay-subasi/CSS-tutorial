@@ -75,3 +75,7 @@ div[class|="box"]{
 div[class^="box"]{
     background-color: blueviolet;
 }
+
+div[class$="box"]{
+    background-color: brown;
+}
