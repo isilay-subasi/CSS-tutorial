@@ -67,3 +67,7 @@ abbr[title]{
 a[target="alt"]{
     color: green;
 }
+
+div[class|="box"]{
+    background-color: aqua;
+}
