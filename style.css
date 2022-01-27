@@ -112,3 +112,15 @@ p::selection{
     background-color: red;
 }
 
+input{
+    color: blue;
+}
+
+textarea{
+
+    color: yellowgreen;
+}
+
+input::placeholder{
+    color: coral;
+}
