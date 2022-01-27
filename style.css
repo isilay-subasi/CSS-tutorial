@@ -136,3 +136,7 @@ input::placeholder{
 .child:first-child{
     background-color: yellow;
 }
+
+ul li:last-child{
+    background-color: turquoise;
+}
