@@ -63,3 +63,7 @@ ul .list-iki ~ li{
 abbr[title]{
     color: aquamarine;
 }
+
+a[target="alt"]{
+    color: green;
+}
