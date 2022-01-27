@@ -140,3 +140,7 @@ input::placeholder{
 ul li:last-child{
     background-color: turquoise;
 }
+
+.child:first-of-type{
+    background-color: tomato;
+}
