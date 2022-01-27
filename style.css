@@ -104,3 +104,11 @@ div[class*="top" i]{
     color: blue;
 }
 
+::selection{
+    background-color: rgb(206, 255, 71);
+}
+
+p::selection{
+    background-color: red;
+}
+
