@@ -99,3 +99,8 @@ div[class*="top" i]{
     font-size: 50px;
 }
 
+.sozde-paragraf::first-line{
+    background-color: cadetblue;
+    color: blue;
+}
+
