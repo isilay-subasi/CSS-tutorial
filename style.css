@@ -124,3 +124,15 @@ textarea{
 input::placeholder{
     color: coral;
 }
+
+.list li:first-child{
+    background-color: blueviolet;
+}
+
+.child ul:first-child{
+    background-color: red;
+}
+
+.child:first-child{
+    background-color: yellow;
+}
