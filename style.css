@@ -79,3 +79,7 @@ div[class^="box"]{
 div[class$="box"]{
     background-color: brown;
 }
+
+div[class*="title"]{
+    background-color: burlywood;
+}
