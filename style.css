@@ -84,11 +84,13 @@ div[class*="top" i]{
     background-color: burlywood;
 }
 
-.after::after{
-    content: 'Sonraki Yazı';
+.box::after{
+    content: attr(title);
     color: blue;
 }
 
-.after::before{
-    content: 'Önceki Yazı';
+.box::before{
+    content: attr(class);
+    color: blueviolet;
 }
+
