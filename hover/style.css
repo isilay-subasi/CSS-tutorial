@@ -32,3 +32,7 @@ p:hover{
 .url:hover::after{
     display: none;
 }
+
+input[type="text"]:focus{
+    background-color: red;
+}
