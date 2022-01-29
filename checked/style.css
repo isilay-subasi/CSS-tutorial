@@ -1,0 +1,25 @@
+input[type="radio"]:checked + span{
+        color: red;
+}
+
+input[type="radio"]:checked+label { font-weight: bold; }
+
+.checkbox:checked + .box{
+    display: none;
+}
+
+.checkbox input[type="checkbox"]:checked + .box{
+    display: none;
+}
+
+.button::before{
+    content: attr(data-hide);
+}
+
+.checkbox:checked + .button::before{
+    content: attr(data-show);
+}
+
+.checkbox:checked + .button + .box{
+    display: none;
+}
