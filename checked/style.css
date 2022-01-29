@@ -23,3 +23,17 @@ input[type="radio"]:checked+label { font-weight: bold; }
 .checkbox:checked + .button + .box{
     display: none;
 }
+
+.my-button:focus{
+    background-color: lime;
+    color: white;
+}
+
+.my-text:focus{
+    color: lime;
+    border-color: tomato;
+}
+
+a:focus{
+    background-color: blueviolet;
+}
