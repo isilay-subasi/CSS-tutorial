@@ -1,3 +1,12 @@
 p:target{
     background-color: yellow;
 }
+
+input:in-range{
+    background-color: green;
+}
+
+input:out-of-range{
+    background-color: red;
+    color: white;
+}
