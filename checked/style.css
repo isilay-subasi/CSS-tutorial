@@ -47,3 +47,11 @@ div:focus{background-color: yellow;}
 li:focus{background-color: orange;}
 
 ul:focus-within{background-color: rebeccapurple}
+
+li:only-child{
+    background-color: yellow;
+}
+
+div:only-child{
+    background-color: red;
+}
