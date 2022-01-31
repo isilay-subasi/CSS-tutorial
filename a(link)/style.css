@@ -1,0 +1,23 @@
+/*
+    :active
+    :link
+    :visited
+    :any-link
+*/
+
+.link1:active{
+    background-color: yellow;
+}
+
+.link2:link{
+    color: tomato;
+}
+
+.link2:visited{
+    color: gray;
+}
+
+
+.link3 a:any-link{
+    background-color: lime;
+}
