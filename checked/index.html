@@ -90,6 +90,27 @@
         <li>dolu</li>
     </ul>
 
+    <hr>
+    <!--:valid :invalid,, required= içerisinde mutlaka bişey 
+        yazması lazım bundan sonra valid değeri çalışır=invalid durumunda olur.
+    minlength="3" niteliğini eklersek 3 karakterden sonra valid değerine dönecektir-->
+
+    <input type="text" minlength="3" required>
+    <br>    
+    <ul>
+        <li>
+            <label for="ad">Adınız : </label>
+            <input type="text" minlength="2" id="ad" required>
+            <span></span>
+        </li>
+        <li>
+            <label for="email">E-posta : </label>
+            <input type="email" minlength="2" id="email" required>
+            <span></span>
+        </li>
+    </ul>    
+
+
 
 </body>
 </html>
