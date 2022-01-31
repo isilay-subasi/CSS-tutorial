@@ -11,3 +11,8 @@
     width: min-content;
     background-color: aqua;
 }
+.box2{
+    background-color: tomato;
+    writing-mode: vertical-lr;
+    height: min-content;
+}
