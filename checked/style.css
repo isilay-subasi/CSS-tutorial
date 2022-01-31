@@ -55,3 +55,7 @@ li:only-child{
 div:only-child{
     background-color: red;
 }
+
+abbr:not([title]):not(.test):not(#my){
+    background-color: blueviolet;
+}
