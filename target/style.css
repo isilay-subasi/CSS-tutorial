@@ -10,3 +10,17 @@ input:out-of-range{
     background-color: red;
     color: white;
 }
+
+
+
+:root{
+    background-color: yellow;
+}
+
+html{
+    background-color: aqua;
+}
+
+body{
+    background-color: lime;
+}
