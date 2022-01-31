@@ -68,3 +68,18 @@ outline
 
 
 }
+
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    margin: 150px auto;
+    border: 10px double red;
+    /*
+    border-top-left-radius: 40px;
+    border-top-right-radius: 50px;*/
+    border-radius: 200px;
+
+
+
+}
