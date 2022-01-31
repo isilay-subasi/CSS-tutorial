@@ -1,0 +1,40 @@
+div{
+
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+
+    margin: 0 auto 15px;
+
+    /*margin-right: auto;
+    margin-left: auto;*/
+
+    /*margin:50px  = heryerden dış boşluk vermek için
+      margin:50px 60px = (aşağıdan-yukarıdan) (sağdan-soldan)
+      margin:50px 60px 70px = (yukarıdan)(sağdan ve soldan)( aşağıdan)
+      margin:50px 40px 49px 20px =(yukarı)(sağ)(aşağı)(sol) = saat yönü şeklinde
+    */
+
+
+
+
+
+
+    /*
+    width: 200px;
+    height: 200px;
+    padding: 50px 100px;
+    background-color: lime;
+
+padding: (aşağı-yukarı) (sağ-sol)
+      padding: yukarı sağ aşağı sol  
+    */
+
+
+    /*
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    */
+}
