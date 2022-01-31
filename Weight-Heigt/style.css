@@ -1,8 +1,13 @@
 
-div{
+.min{
     max-width: 80%;
     min-width: 600px;
     height: 400px;
     background-color: lime;
 
+}
+
+.content{
+    width: min-content;
+    background-color: aqua;
 }
