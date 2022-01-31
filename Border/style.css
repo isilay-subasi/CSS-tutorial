@@ -1,0 +1,38 @@
+/*
+       border-style
+       border-width
+       border-color
+       border 
+
+
+*/
+
+
+.box1{
+    width: 250px;
+    height: 250px;
+    background-color: lime;
+    border-style: dashed solid dotted double;
+    border-width: 30px;
+    border-color: blueviolet rosybrown darkorange palegreen;
+
+    /*border-style: dotted;
+    border-top-style: dashed;
+    border-bottom-style: groove;
+    border-right-style: inherit;
+    border-width: 20px;*/
+    
+}
+
+.box2{
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
+    background-color: tomato;
+   /* border:10px dashed;*/
+   border: 10px solid green;
+   border-top: 10px dotted darkmagenta;
+   border-left: 20px groove green;
+
+
+}
