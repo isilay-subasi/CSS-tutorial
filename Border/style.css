@@ -36,3 +36,31 @@
 
 
 }
+
+/*
+outline-style
+outline-width
+outline-color
+outline-offset
+outline
+*/
+
+
+
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: slateblue;
+    margin: 50px auto;
+    border: 10px solid tomato;
+    /*
+    outline-style: dashed;
+    outline-width: 10px;
+    outline-color: darkred;
+    */
+    outline: 10px dashed darkred;
+    outline-offset: 20px;
+
+
+}
