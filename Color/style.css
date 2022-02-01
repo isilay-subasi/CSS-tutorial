@@ -93,3 +93,20 @@ body{
     line-height: 1.5;
 
 }
+
+/*
+    font: kısa kullanımlı özellik
+    font-size/line-height
+    font-family
+    font-style
+    font-variant
+    font-weight
+    line-height
+    font
+*/
+
+.p{
+
+    font: italic bold small-caps 30px/150% Arial,sans-serif;
+
+}
