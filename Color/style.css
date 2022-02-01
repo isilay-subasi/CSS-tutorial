@@ -141,3 +141,9 @@ p:last-child{
 p{
     text-indent: 15px;
 }
+
+.p{
+    white-space:pre;
+
+
+}
