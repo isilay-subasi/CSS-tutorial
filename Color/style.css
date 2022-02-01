@@ -110,3 +110,8 @@ body{
     font: italic bold small-caps 30px/150% Arial,sans-serif;
 
 }
+
+h1{
+    font-size: 20px;
+    letter-spacing: 1em;
+}
