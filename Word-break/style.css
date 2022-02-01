@@ -1,0 +1,21 @@
+/*
+Uzun metinlerle ilgili özellikleri inceleyeceğiz.
+
+*/
+
+p{
+
+    width: 50px;
+    border: 3px solid lime;
+
+
+
+}
+
+.first{
+    hyphens: auto;
+}
+
+p:last-child{
+    word-break: break-all;
+}
