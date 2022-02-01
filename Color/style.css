@@ -112,6 +112,16 @@ body{
 }
 
 h1{
-    font-size: 20px;
-    letter-spacing: 1em;
+
+    letter-spacing:10px;
+}
+
+p:last-child{
+    color: rgb(22, 97, 97);
+    /*center,right,left,justify*/
+    /*text-align blok seviyesindeki elemanlar için geçerlidir.*/
+    /*text-align-last  --> son satırda kalan yazıyı hizalamak için kullanılır*/
+
+    text-align: justify;
+    text-align-last: justify;
 }
