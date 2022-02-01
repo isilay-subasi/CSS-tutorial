@@ -36,9 +36,14 @@ body{
 
 */
 
+/*
+    font-style:italic ,  oblique(yüklenen fontun eğik fontu varsa)
+
+*/
 
 
 .box1{
     font-family: 'Courier New', Courier, monospace;
-    font-size: xx-small;
+    font-size: 2em;
+    font-style: oblique;
 }
