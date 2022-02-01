@@ -1,0 +1,27 @@
+/*
+Color -> Anahtar kelimleri kullanılarak
+      -> Rgb -  #hexadecimal  rgb() rgba()---(alfa)Opaklık 0 ile 1 arası  #FFFFFF (beyaz)
+      -> Hsl - hsl() hsla()  
+*/
+
+h1{
+    /*color: red;*/
+    /*color: rgb(14,26,149);*/
+   /* color: rgba(103, 134,17,.43);*/
+    color: #6786116e;
+}
+
+/*
+    sans-serif -> font ailesinin adıdır.
+    serif
+    monospace
+    cursive
+    fantasy
+
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
