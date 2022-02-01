@@ -25,3 +25,20 @@ body{
 
 
 }
+
+/*
+    font-size:
+    ->xx-small , xx-large , medium
+    ->px değerleri 20px
+    -> 1em= Ebebeyn etiketinin font-sizena eşit demektir.Bodynin varsayılan olarak 16px.
+    -> rem = Html etiketinin font-size değerine bakar. 1rem=16px
+    -> larger,smaller mevcut font-size değerlerine göre ayarlıyor.Daha büyük yada daha küçük yapıyor.
+
+*/
+
+
+
+.box1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-small;
+}
