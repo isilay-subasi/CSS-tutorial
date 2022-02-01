@@ -82,3 +82,14 @@ body{
     font-size: 30px;
     font-weight: lighter;
 }
+
+/*
+    line-height
+    satır yüksekliği demektir.
+
+*/
+
+.box3 p{
+    line-height: 1.5;
+
+}
