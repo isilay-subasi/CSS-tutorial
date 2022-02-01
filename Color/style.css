@@ -47,3 +47,12 @@ body{
     font-size: 2em;
     font-style: oblique;
 }
+
+.box2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.box2 span{
+    font-variant: small-caps;
+}
