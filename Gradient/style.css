@@ -1,0 +1,132 @@
+/*linear gradient - doğrusal
+    background-image özelliğiyle kullanılıyor.
+    Default olarak aşağıdan yukarıya doğru geçiş verilir.
+    Ama istersek bunu değiştirebiliriz. to left şeklinde parametre ekleyerek 
+    sağdan başlayarak sola doğru gidecektir.
+    to left,to right,to bottom(varsayılan),to top
+    ***********************************************
+    Aşağı köşeden yukarıdaki köşeye doğru çapraz yapmak istersem;
+    to top right - üst sağa doğru git.
+    to bottom right - alttaki sağ köşeye doğru geçiş sağla.
+    ************************************************
+    Daha fazla kontrol istersekde açıları kullanabiliyoruz. deg değeriyle
+    45deg -> to top right
+    -45deg -> to top left
+    ************************************************
+    İkiden fazla renkde kullanabiliriz.
+    orange,red,green,blue,purple gibi.
+    renklerin yanına nereye kadar gitsin belirleyebiliriz.
+    orange 0 %20
+    background-image: linear-gradient(orange 0 20%,red 20% 40%,green 40% 60%,blue 60% 80%,purple 80%); -> Keskinlik sağlanıri.
+    biraz daha bulanık istersek 20% 28% gibi aralarını azaltabiliriz.  
+    **************************************************
+    white,black --> beyaz ve siyahta 50% şeklinde renk geçişleri sağlayacaktı.
+    white,20%,black ->  beyazınki 20%de de bitsin demek istiyorum.
+    white,50%,black,50% -> keskin yarı yarıya oluştururuz.
+    ***************************************************
+    Resmime de uygulayabiliyorum.
+    Ve 3 tane linear-gradient() özelliği ekleyebiliyorum.
+    ****************************************************
+    radial-gradient()
+    Merkezi bir yerden yayılarak renk geçişlerini sağlıyor.
+    bunu uygularkende at left,at right gibi özellikler verebiliyoruz.
+    Nerden başlanması gerektiğini söylemek istersek.
+    at center - ortadan başlar.
+    ******************************************************
+    conic-radiant()
+    Merkezden yayılmak üzere.Saat yönünden dönerek oluşuyor.
+    at yatay dikey
+    yatayda şu yüzdeden başlasın demek istersem kullanıyorum.
+    *********************************************************
+    repeating-linear-gradient()
+    Tekrar eden.
+
+
+*/
+body{
+
+    background-color:black;
+    background-image:
+            radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+            radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+            radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+            radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+}
+
+.box{
+
+    width: 200px;
+    height: 200px;
+   /* background-image: linear-gradient(to top right,orange,red);*/
+   /*background-image: linear-gradient(orange 0 20%,red 20% 40%,green 40% 60%,blue 60% 80%,purple 80%);*/
+  /* background-image: linear-gradient(white,20%,black);*/
+  background-image:linear-gradient(to right,transparent,rgba(0,255,0,.5)),
+                   linear-gradient(to left,transparent,rgba(255,0,0,.5)),
+   url(emoji.jpg);
+  background-size: cover;
+
+
+}
+
+.box2{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(lime,blue);
+
+
+
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(at 25% 75%,lime,blue);
+
+}
+
+.box4{
+
+    width: 200px;
+    height: 200px;
+    background-image: repeating-linear-gradient(45deg,lime 0 5px,blue 5px 10px);
+}
+
+.box5{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-image: repeating-radial-gradient(lime 0 5px,blue 5px 10px);
+    border-radius: 50%;
+}
+
+.box6{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-image: repeating-conic-gradient(lime 0deg 30deg,orange 30deg 60deg,purple 60deg 90deg);
+    border-radius: 50%;
+
+}
+
+.box7{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.box8{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
+                      linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+    background-size:50px 50px;
+}
+
