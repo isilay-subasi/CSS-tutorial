@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: lime;
+    background-image: url(emoji.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: bottom;
+
+}
+
+.box1{
+
+    padding: 30px;
+    border: 20px dashed black;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image: url(emoji.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+
+}
+
+
+.box2{
+
+    width: 500px;
+    height: 500px;
+    padding: 70px;
+    margin: 20px;
+    border: 10px dashed black;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image: url(emoji.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+
+
+}
