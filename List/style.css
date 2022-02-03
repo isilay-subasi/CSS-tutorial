@@ -1,0 +1,62 @@
+/*
+Düzensiz liste elemanlarını da düzenli şekilde CSS ile yapabiliriz.
+list-style-type: string ifadede yazabiliyoruz.Ve onu başa yazar.
+none yazarakda kaldırabiliyoruz.
+*******************************************************************
+Normalde liste elemanları içeriye doğrudur.
+liste elemanların kendiliğinden margin ve padding değerleri var.
+bunları sıfırlayalım.
+********************************************************************
+iconfinder sitesine giderek resmin urlsini alıyoruz.Ve liste başına resim olarak verebiliyoruz.
+listy-style-image
+*******************************************************************
+Bütün bu özellikleri list-style özelliğinde kullanabiliyoruz.
+*******************************************************************
+Eğer resim linki yanlışsa -> circle olarak görünecektir.
+
+
+
+*/
+
+body{
+    margin-left: 100px;
+}
+
+
+ul,ol{
+
+    margin: 0;
+    padding: 0;
+    /*list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url(https://cdn1.iconfinder.com/data/icons/space-flat-galaxy-radio/512/galaxy-64.png);*/
+    /*list-style: circle outside url(https://cdn1.iconfinder.com/data/icons/space-flat-galaxy-radio/512kl/galaxy-64.png);*/
+    list-style-type: '\2665';
+
+}
+
+ul.sayac{
+
+    counter-reset: sayac1;
+}
+
+ul.sayac li{
+    counter-increment: sayac1 3;
+}
+
+ul.sayac li::before{
+    content: counter(sayac1)')';
+}
+
+
+.articles{
+    counter-reset: makale;
+}
+
+.articles article{
+    counter-increment: makale;
+}
+
+.articles article h3::before{
+    content: counter(makale) ')';
+}
