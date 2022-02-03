@@ -1,0 +1,46 @@
+/*
+inline ve block elementi
+
+span - inline
+div - block
+
+inline elementine width ve height uygularsak bunu başaramayız.
+Bunun için display özelliği devreye girer.
+display özelliğini block yaparsak widht,height ve margin gibi değerleri verevbiliriz.
+*********************************
+inline-block ->  Span etiketimin widht height değerleri almasını ama diğer elamanı da yanına almasını istersem 
+none -> Görüntüyü gizliyor.
+visibility : hidden -> Bu özellik tamamen gitmesin ama ekranda gözükmesin diye istersem bu özelliği kullanıyorum.
+flex -> Esnek bie görüş sağlıyor.
+
+*/
+/*
+span{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    display: block;
+
+
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+*/
+
+/*
+body > div{
+    width: 100%;
+
+
+}
+*/
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
